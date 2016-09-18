@@ -2,7 +2,7 @@
 
 This code book summarizes 'mergedData' data frame and the resulting data fields in tidy.txt.
 
-_Measurements:_
+## Measurements:
  [1] "tbodyaccmeanx" - ...
  [2] "tbodyaccmeany"           
  [3] "tbodyaccmeanz"           
@@ -70,7 +70,7 @@ _Measurements:_
 [65] "fbodybodygyrojerkmagmean"
 [66] "fbodybodygyrojerkmagstd" 
 
-_IDs:_
+## IDs:
 [67] "activity" - performed activity when measurement was taken    
 [68] "subject" - test subject
 
