@@ -7,4 +7,5 @@
 3. Only the measurements on the mean and standard deviation willbe extracted.
 4. Column names are modified to be more readable.
 5. Loads the 'train' and 'test' data; activity and subject columns are merged to the data.
-6. 'Train' and 'test' data are merged.
+6. Merges 'Train' and 'test' data (_mergedData_).
+7. Creates a tidy data set (_meanData_) with the average of each variable for each activity and each subject.
