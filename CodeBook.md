@@ -3,7 +3,7 @@
 This code book summarizes 'mergedData' data frame and the resulting data fields in tidy.txt.
 
 ## Measurements:
- [1] "tbodyaccmeanx" - ...
+ [1] "tbodyaccmeanx" - <descriptions...> 
  [2] "tbodyaccmeany"           
  [3] "tbodyaccmeanz"           
  [4] "tbodyaccstdx"            
