@@ -46,3 +46,6 @@ mergedData$activity <- factor(mergedData$activity, levels = activity_labels[,1],
 # Melt mergedData, apply dcast (examples e.g. http://seananderson.ca/2013/10/19/reshape.html)
 meltedMergedData <- melt(mergedData, id = c("subject", "activity"))
 meanData <- dcast(meltedMergedData, subject + activity ~ variable, mean)
+
+# write tidy meanData to 'tidy.txt'
+write.table(meanData, "tidy.txt", row.names = FALSE, quote = FALSE)
