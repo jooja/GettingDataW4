@@ -21,8 +21,8 @@ features[,2] <- as.character(features[,2])
 # Modify the names to be more readable
 featuresExtracted <- grep(".*mean[(][)].*|.*std[(][)].*", features[,2])
 featuresExtracted.names <- features[featuresExtracted,2]
-featuresExtracted.names = gsub("-mean[(][)]", "mean", featuresExtracted.names)
-featuresExtracted.names = gsub("-std[(][)]", "std", featuresExtracted.names)
+featuresExtracted.names <- gsub("-mean[(][)]", "mean", featuresExtracted.names)
+featuresExtracted.names <- gsub("-std[(][)]", "std", featuresExtracted.names)
 featuresExtracted.names <- gsub("-", "", featuresExtracted.names)
 featuresExtracted.names <- tolower(featuresExtracted.names)
 
