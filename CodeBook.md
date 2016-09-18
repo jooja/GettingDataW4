@@ -1,6 +1,6 @@
 # Code Book
 
-This code book summarizes 'mergedData' data frame and the resulting data fields in tidy.txt.
+This code book summarizes _mergedData_ and _meanData_ data frames (former containing all 'mean' and 'std' measurements, latter only means of 'mean' and 'std' measurements).
 
 ## Measurements:
  [1] "tbodyaccmeanx" - descriptions...  
