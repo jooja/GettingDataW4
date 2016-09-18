@@ -74,4 +74,10 @@ This code book summarizes 'mergedData' data frame and the resulting data fields 
 [67] "activity" - performed activity when measurement was taken    
 [68] "subject" - test subject
 
-
+## Activity labels:
+* WALKING = value 1
+* WALKING_UPSTAIRS = value 2
+* WALKING_DOWNSTAIRS = value 3
+* SITTING = value 4
+* STANDING = value 5
+* LAYING = value 6
